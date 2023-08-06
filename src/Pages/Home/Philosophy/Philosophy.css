@@ -1,0 +1,35 @@
+.philosophy_body {
+  background: rgba(39, 245, 238, 0.06);
+  margin-top: 60px;
+  padding: 60px;
+  bottom: 47px;
+  margin: auto;
+}
+.philosophy_text_left {
+  position: absolute;
+  left: 332px;
+  width: 189px;
+  text-align: center;
+}
+
+.philosophy_body_img_top {
+  position: relative;
+}
+.pronto_frame,
+.pkg_title {
+  position: absolute;
+  top: 42%;
+  left: 18%;
+  width: 300px;
+  text-align: center;
+}
+.pkg_title h2 {
+  color: #44c8f5;
+  font-size: 29px;
+  font-weight: 700;
+}
+.pkg_title span {
+  display: inherit;
+  display: inherit;
+  color: black;
+}

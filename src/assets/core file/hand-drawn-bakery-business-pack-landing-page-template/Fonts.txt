@@ -1,0 +1,13 @@
+Fonts used in this design:
+
+Font: Darker Grotesque
+Author: Gabriel Lam,Vietanh Nguyen
+Url: https://fonts.google.com/specimen/Darker+Grotesque
+
+Font: Caveat
+Author: Impallari Type
+Url: https://fonts.google.com/specimen/Caveat
+
+Font: Modak
+Author: Ek Type
+Url: https://fonts.google.com/specimen/Modak
