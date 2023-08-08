@@ -1,10 +1,11 @@
 
+import { Link } from 'react-router-dom';
 import './NavbarStyle.css'
 const Navbar = () => {
     const navOption=<>
                     <li><a>Home</a></li>
                     <li><a>Provide service</a></li>
-                    <li><a>Blog</a></li>
+                    <Link to="/blogs" /> 
                     <li><a>About</a></li>
                     <li><a>Contact Us</a></li>
                     </>

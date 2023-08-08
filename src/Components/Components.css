@@ -30,3 +30,21 @@
   letter-spacing: -0.04em;
   margin-top: 5px;
 }
+/* banner */
+.common_banner {
+  /* background-image: url(/src/assets/aboutUs/aboutUs1.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Banner_heading {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#089fac, #fe9043);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
