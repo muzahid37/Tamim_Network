@@ -1,12 +1,12 @@
 
-import { Link } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 import './NavbarStyle.css'
 const Navbar = () => {
     const navOption=<>
-                    <li><a>Home</a></li>
-                    <li><a>Provide service</a></li>
-                    <Link to="/blogs" /> 
-                    <li><a>About</a></li>
+                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to='/blogs'>BLOGS</NavLink></li>
+                  
+                    <li><NavLink to="/aboutUs">ABOUT US</NavLink></li>
                     <li><a>Contact Us</a></li>
                     </>
     return (

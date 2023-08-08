@@ -17,17 +17,6 @@
 .banner_header {
   color: #fe9043;
 }
-.banner_btn {
-  background: rgb(254, 144, 67);
-  color: hsl(60, 56%, 91%);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-.banner_btn:hover {
-  background: rgb(188, 110, 110) !important;
-}
-ul.thumbs.animated {
-  display: none !important;
-}
+
 /* https://i.ibb.co/DW21JTf/dot.jpg */
 /* https://i.ibb.co/0jNvQCn/dot1.webp */

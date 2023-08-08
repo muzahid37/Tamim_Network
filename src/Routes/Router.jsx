@@ -4,6 +4,7 @@ import {
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import Blogs from "../Pages/Blogs/Blogs";
+import AboutUs from "../Pages/AboutUs/AboutUs";
 
   
 export const router = createBrowserRouter([
@@ -18,7 +19,11 @@ export const router = createBrowserRouter([
         {
           path:"/blogs",
           element: <Blogs/>
-      }
+        },
+        {
+          path:"/aboutUs",
+          element: <AboutUs/>
+        }
       ]
      
      

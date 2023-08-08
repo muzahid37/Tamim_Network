@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Banner from "../../Components/Banner";
 import SectionTitle from "../../Components/SectionTitle";
-// import BannerImg from '../../assets/aboutUs/aboutUs1.jpg'
-import './Blogs.css'
+import BannerImg from '../../assets/aboutUs/aboutUs1.jpg'
+// import './Blogs.css'
 import Blog from "./blog";
 
 
@@ -16,8 +16,8 @@ const Blogs = () => {
     // console.log(blogs)
     return (
         <div>
-            <section className="blogs_banner">
-               <Banner BannerHeader={"BLOGS"}></Banner>
+            <section className="mb-10 ">
+               <Banner img={BannerImg} BannerHeader={"BLOGS"}></Banner>
             </section>
             <section>
                  <div >

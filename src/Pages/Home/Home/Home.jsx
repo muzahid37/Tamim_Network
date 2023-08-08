@@ -1,4 +1,5 @@
-import About from "../About/About";
+
+import AboutHome from "../AboutHome/AboutHome";
 import Banner from "../Banner/Banner";
 import BestPackageHome from "../BastPackageHome/BestPackageHome";
 import BlogsHome from "../BlogHome/BlogsHome";
@@ -12,7 +13,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Information></Information>
-            <About></About>
+            <AboutHome></AboutHome>
             <ServiceHome></ServiceHome>
             <BestPackageHome></BestPackageHome>
             <CommonPackage></CommonPackage>

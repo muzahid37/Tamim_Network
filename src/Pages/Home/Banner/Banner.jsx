@@ -12,6 +12,7 @@ import banner4 from'../../../assets/banner/banner3.png';
 
 import ServiceBG from"./.././../../assets/Service/servise_BG.png"
 import ServiceBG2 from"./.././../../assets/Service/service-bg-2.png"
+import Button from '../../../Components/Button';
 
 
 const Banner = () => {
@@ -45,7 +46,8 @@ const Banner = () => {
           <div className='max-w-screen-sm'>
             <h1 className="text-5xl font-bold banner_header">BANNER SECTION DESGAIN</h1>
             <p className="py-6 banner_psg">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <button className="btn banner_btn">CONTACT WITH US</button>
+            {/* <button className="btn banner_btn"></button> */}
+            <Button btn={"CONTACT WITH US"}> </Button>
           </div>
         </div>
       </div>
